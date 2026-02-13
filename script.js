@@ -70,7 +70,7 @@ const checkWinner = () => {
     }
   }
 
-  // Check draw
+  // Check draw if it possible
   let isDraw = true;
   for (let box of boxes) {
     if (box.innerText === "") {
